@@ -1,0 +1,43 @@
+app_id,app_name,developer,genre,price,num_reviews,avg_rating,pct_low_rating,installs,ratings,first_review_date,last_review_date
+ai.turbolearn,Turbo AI - Notetaker,Turbo AI,Education,0.0,500,4.47,7.8,1000000,231322.0,2025-12-31 11:07:15,2026-01-11 00:36:03
+ai.plaud.android.plaud,Plaud: AI Notetaker,PLAUD LLC,Tools,0.0,500,4.41,11.4,100000,7277.0,2025-05-25 08:33:37,2026-01-10 05:06:10
+com.codespaceapps.meetingtranscriber,Smart Noter - AI Note Taker,Deep Flow Apps,Productivity,0.0,500,3.7,28.2,5000000,61106.0,2025-09-28 11:20:40,2026-01-10 12:25:42
+com.aisense.otter,OtterAI Transcribe Voice Notes,Otter.ai,Productivity,0.0,500,2.83,50.2,5000000,25629.0,2025-02-13 13:35:16,2026-01-09 21:53:57
+com.myscript.nebo,MyScript Notes (Nebo),MyScript,Productivity,0.0,500,3.13,41.0,1000000,30118.0,2025-07-27 04:06:26,2026-01-10 23:22:52
+com.microsoft.office.onenote,Microsoft OneNote: Save Notes,Microsoft Corporation,Productivity,0.0,500,3.79,26.0,500000000,1455686.0,2025-12-04 06:07:04,2026-01-10 23:36:55
+com.innosq.soundtypeai,SoundType AI - Voice To Text,Innosquares limited,Productivity,0.0,500,4.3,12.2,1000000,41009.0,2025-08-11 05:24:43,2026-01-10 10:48:06
+com.langogo.transcribe,Notta-Transcribe Audio to Text,NOTTA PTE. LTD.,Productivity,0.0,500,3.05,45.0,1000000,17856.0,2025-01-30 21:27:10,2026-01-10 19:07:32
+com.google.android.apps.labs.language.tailwind,Google NotebookLM,Google LLC,Productivity,0.0,500,4.52,7.0,10000000,104499.0,2025-12-28 20:56:59,2026-01-11 00:53:29
+com.goodnotes.android.app,"Goodnotes: AI Notes, Docs, PDF",Goodnotes,Productivity,0.0,500,2.32,63.6,1000000,24406.0,2025-10-05 19:53:56,2026-01-10 21:35:03
+easynotes.notes.notepad.notebook.privatenotes.note,Easy Notes - Note Taking Apps,"Gulooloo Tech Co., Ltd.",Productivity,0.0,500,4.65,5.6,10000000,385641.0,2025-12-04 03:26:42,2026-01-10 19:56:10
+io.labhouse.audioapp,Summary - AI Note Taker,Labhouse Mobile,Productivity,0.0,500,3.92,22.2,100000,17487.0,2025-11-08 22:13:31,2026-01-10 23:24:14
+notion.id,"Notion: Notes, Tasks, AI","Notion Labs, Inc.",Productivity,0.0,500,3.89,23.0,10000000,325077.0,2025-11-24 17:49:48,2026-01-10 18:28:00
+newway.good.note.ai.notepad.notebook.checklist.gpt,AI Notes & Transcribe Memo,Newway Apps,Productivity,0.0,500,3.63,30.6,1000000,5400.0,2023-06-29 17:15:42,2026-01-02 02:06:04
+com.yygg.note.app,"Notewise - AI Notes, PDF, Docs",Notewise,Productivity,0.0,500,3.71,27.0,5000000,23788.0,2025-09-17 15:38:03,2026-01-10 20:57:25
+com.studocu.app,Studocu: AI Notes & Summaries,Studocu,Education,0.0,500,4.48,7.8,1000000,20157.0,2025-08-04 08:28:52,2026-01-09 18:49:30
+com.zoho.notebook,Notebook - AI Notes & Notepad,Zoho Corporation,Productivity,0.0,500,4.01,20.4,5000000,62431.0,2025-10-16 20:06:23,2026-01-10 19:18:25
+com.hubx.noteai,Note AI: Smart Note Taker,HubX,Productivity,0.0,475,3.58,32.42,100000,7001.0,2025-03-04 14:14:43,2026-01-10 08:24:24
+com.app.voicenotes,Voicenotes,Coping Hard Inc.,Productivity,0.0,465,3.83,24.52,100000,2442.0,2024-05-03 10:41:06,2026-01-08 20:55:19
+ai.fireflies.mobile,Fireflies: AI notetaker,Fireflies.ai,Productivity,0.0,270,3.98,20.37,100000,3751.0,2023-09-04 17:54:48,2026-01-10 14:06:23
+com.ma.waveapp,Wave AI Note Taker & Recorder,Mohrer Associates,Productivity,0.0,250,3.35,38.0,100000,1855.0,2024-08-01 20:18:29,2026-01-08 20:52:47
+ai.notes.notebook,HyNote: AI Notebook LLM Notes,Turing Intelligence,Productivity,0.0,248,4.04,18.55,100000,3243.0,2024-12-13 18:27:18,2026-01-02 06:35:55
+com.james.SmartNotepad,Smart Notes,SMARTWHO,Productivity,0.0,207,4.02,15.94,100000,2308.0,2010-10-23 19:54:27,2025-12-08 19:02:03
+net.dailylabs.daily_app,AI Journal Notebook - Reflectr,"Daily Labs, LLC",Productivity,0.0,172,4.37,9.3,50000,733.0,2023-05-08 23:03:18,2026-01-08 16:56:13
+app.coconote,Coconote - AI Note Taker,Quizlet Inc.,Education,0.0,142,3.77,27.46,100000,1788.0,2025-04-24 05:45:15,2026-01-10 11:52:16
+ai.meeting.app,Meeting.ai: AI Visual Notes,Meeting.ai,Productivity,0.0,123,4.37,13.01,100000,11125.0,2024-07-02 03:26:37,2026-01-04 02:25:01
+com.sota.ainotex,"NoteX: AI Note Taker, Notebook",SotaLabs,Productivity,0.0,99,3.63,29.29,100000,1580.0,2024-11-05 19:04:57,2026-01-09 17:07:10
+evolly.app.ainote,AI Note Taker - Voice to Notes,EVOLLY HK,Productivity,0.0,78,3.37,34.62,100000,795.0,2025-01-08 19:48:30,2026-01-06 17:25:56
+com.feraset.ainote,AI Note Taker - Meeting Notes,FERASET,Education,0.0,74,3.49,36.49,10000,1535.0,2024-08-31 18:34:42,2026-01-10 22:20:58
+com.meetgeek.assistant,AI Transcribe. Speech to Text,MeetGeek: AI Note Taker. Transcribe Speech to Text,Productivity,0.0,66,3.89,24.24,100000,904.0,2023-12-08 12:50:03,2025-12-30 12:26:07
+com.rrd.ideaShell,ideaShell: AI Voice Notes,RoundRedDot Inc.,Tools,0.0,52,4.52,7.69,100000,5285.0,2025-04-12 18:04:08,2026-01-10 19:56:08
+com.voicememos.app,Voice Memos – Study Notes,Tech Primo,Productivity,0.0,30,4.17,20.0,10000,139.0,2025-01-09 17:57:01,2026-01-08 17:24:14
+com.appzone.noteai,"Notes AI: Note Taker, Notebook",AppZone AI,Productivity,0.0,28,4.25,14.29,5000,179.0,2025-05-19 13:45:42,2026-01-06 19:14:44
+voice.recorder.note.ai.transcriber,Note AI: Voice AI Transcribe,AI Chat Studio,Productivity,0.0,20,3.65,25.0,10000,82.0,2025-06-10 12:03:18,2025-11-08 00:58:09
+com.thesaifhusain.ainote,AI Notes,Eden Coders,Productivity,0.0,15,4.0,20.0,5000,40.0,2024-03-06 12:58:44,2025-07-25 14:06:10
+com.recordpro.audiorecord,HiNoter - AI Note Taker,Nieruo Team,Productivity,0.0,14,4.29,14.29,50000,485.0,2025-09-09 10:45:35,2026-01-10 08:21:10
+com.inoid.notter.ai.note.taker,NotterAI - AI Note Taker,iNoid Solutions,Productivity,0.0,6,5.0,0.0,1000,,2025-09-29 07:34:38,2025-11-22 13:50:21
+com.presbtech.notedy,AI Smart Note Taker - Notedy,PresB Tech,Productivity,0.0,4,3.0,50.0,50000,,2025-07-06 19:48:12,2025-11-06 17:04:18
+mia.smartnotes.app,"Smart Notes: AI Summary, Quiz",MIA DIGITAL SOLUTIONS,Productivity,0.0,4,4.5,0.0,10000,0.0,2025-08-25 21:22:10,2025-11-10 00:48:30
+com.pradip.notebookai,Notebook AI,Pradip Khamkar,Productivity,0.0,2,5.0,0.0,500,0.0,2025-11-06 19:10:57,2025-11-15 01:43:09
+com.ozeito.notemind,AI Note Taker – Smart Notes,Ozeito LTD,Productivity,0.0,1,5.0,0.0,100,,2025-10-06 07:22:40,2025-10-06 07:22:40
+com.tutr.smartnotes,Smart Notes AI: Study & PDF,Tran Phuoc Tu,Productivity,0.0,1,5.0,0.0,500,,2025-12-20 06:04:09,2025-12-20 06:04:09

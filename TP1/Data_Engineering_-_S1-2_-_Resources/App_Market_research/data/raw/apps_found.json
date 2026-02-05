@@ -1,0 +1,310 @@
+[
+  {
+    "appId": "com.aisense.otter",
+    "title": "OtterAI Transcribe Voice Notes",
+    "developer": "Otter.ai",
+    "score": 4.325314,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "ai.turbolearn",
+    "title": "Turbo AI - Notetaker",
+    "developer": "Turbo AI",
+    "score": 4.708642,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.codespaceapps.meetingtranscriber",
+    "title": "Smart Noter - AI Note Taker",
+    "developer": "Deep Flow Apps",
+    "score": 4.2777777,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.google.android.apps.labs.language.tailwind",
+    "title": "Google NotebookLM",
+    "developer": "Google LLC",
+    "score": 4.826986,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "ai.fireflies.mobile",
+    "title": "Fireflies: AI notetaker",
+    "developer": "Fireflies.ai",
+    "score": 4.72,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "io.labhouse.audioapp",
+    "title": "Summary - AI Note Taker",
+    "developer": "Labhouse Mobile",
+    "score": 4.5968256,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "notion.id",
+    "title": "Notion: Notes, Tasks, AI",
+    "developer": "Notion Labs, Inc.",
+    "score": 4.6813188,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.studocu.app",
+    "title": "Studocu: AI Notes & Summaries",
+    "developer": "Studocu",
+    "score": 4.6346154,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.ma.waveapp",
+    "title": "Wave AI Note Taker & Recorder",
+    "developer": "Mohrer Associates",
+    "score": 4.572581,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.yygg.note.app",
+    "title": "Notewise - AI Notes, PDF, Docs",
+    "developer": "Notewise",
+    "score": 4.5636363,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.sota.ainotex",
+    "title": "NoteX: AI Note Taker, Notebook",
+    "developer": "SotaLabs",
+    "score": 4.41,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.hubx.noteai",
+    "title": "Note AI: Smart Note Taker",
+    "developer": "HubX",
+    "score": 4.3168316,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.meetgeek.assistant",
+    "title": "AI Transcribe. Speech to Text",
+    "developer": "MeetGeek: AI Note Taker. Transcribe Speech to Text",
+    "score": 4.4,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.feraset.ainote",
+    "title": "AI Note Taker - Meeting Notes",
+    "developer": "FERASET",
+    "score": 4.29,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "app.coconote",
+    "title": "Coconote - AI Note Taker",
+    "developer": "Quizlet Inc.",
+    "score": 4.455446,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.recordpro.audiorecord",
+    "title": "HiNoter - AI Note Taker",
+    "developer": "Nieruo Team",
+    "score": 4.5555553,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.microsoft.office.onenote",
+    "title": "Microsoft OneNote: Save Notes",
+    "developer": "Microsoft Corporation",
+    "score": 4.6371837,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.myscript.nebo",
+    "title": "MyScript Notes (Nebo)",
+    "developer": "MyScript",
+    "score": 4.459677,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.goodnotes.android.app",
+    "title": "Goodnotes: AI Notes, Docs, PDF",
+    "developer": "Goodnotes",
+    "score": 3.4927535,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "easynotes.notes.notepad.notebook.privatenotes.note",
+    "title": "Easy Notes - Note Taking Apps",
+    "developer": "Gulooloo Tech Co., Ltd.",
+    "score": 4.6889124,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.appzone.noteai",
+    "title": "Notes AI: Note Taker, Notebook",
+    "developer": "AppZone AI",
+    "score": 4.631579,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "evolly.app.ainote",
+    "title": "AI Note Taker - Voice to Notes",
+    "developer": "EVOLLY HK",
+    "score": 4.018182,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.zoho.notebook",
+    "title": "Notebook - AI Notes & Notepad",
+    "developer": "Zoho Corporation",
+    "score": 4.1273584,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "ai.meeting.app",
+    "title": "Meeting.ai: AI Visual Notes",
+    "developer": "Meeting.ai",
+    "score": 4.5869565,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.langogo.transcribe",
+    "title": "Notta-Transcribe Audio to Text",
+    "developer": "NOTTA PTE. LTD.",
+    "score": 3.9009008,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "voice.recorder.note.ai.transcriber",
+    "title": "Note AI: Voice AI Transcribe",
+    "developer": "AI Chat Studio",
+    "score": 4.2222223,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "ai.plaud.android.plaud",
+    "title": "Plaud: AI Notetaker",
+    "developer": "PLAUD LLC",
+    "score": 4.6449704,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.inoid.notter.ai.note.taker",
+    "title": "NotterAI - AI Note Taker",
+    "developer": "iNoid Solutions",
+    "score": null,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "newway.good.note.ai.notepad.notebook.checklist.gpt",
+    "title": "AI Notes & Transcribe Memo",
+    "developer": "Newway Apps",
+    "score": 4.22,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "ai.notes.notebook",
+    "title": "HyNote: AI Notebook LLM Notes",
+    "developer": "Turing Intelligence",
+    "score": 4.4455447,
+    "found_with_query": "AI note taking"
+  },
+  {
+    "appId": "com.thesaifhusain.ainote",
+    "title": "AI Notes",
+    "developer": "Eden Coders",
+    "score": 4.888889,
+    "found_with_query": "AI notes"
+  },
+  {
+    "appId": "mia.smartnotes.app",
+    "title": "Smart Notes: AI Summary, Quiz",
+    "developer": "MIA DIGITAL SOLUTIONS",
+    "score": 0,
+    "found_with_query": "smart notes AI"
+  },
+  {
+    "appId": "com.tutr.smartnotes",
+    "title": "Smart Notes AI: Study & PDF",
+    "developer": "Tran Phuoc Tu",
+    "score": null,
+    "found_with_query": "smart notes AI"
+  },
+  {
+    "appId": "com.smartnoteai.app",
+    "title": "Smart Notes AI - Study Tool",
+    "developer": "Hoàng Nhật Long",
+    "score": null,
+    "found_with_query": "smart notes AI"
+  },
+  {
+    "appId": "com.james.SmartNotepad",
+    "title": "Smart Notes",
+    "developer": "SMARTWHO",
+    "score": 4.266667,
+    "found_with_query": "smart notes AI"
+  },
+  {
+    "appId": "com.ozeito.notemind",
+    "title": "AI Note Taker – Smart Notes",
+    "developer": "Ozeito LTD",
+    "score": null,
+    "found_with_query": "smart notes AI"
+  },
+  {
+    "appId": "com.presbtech.notedy",
+    "title": "AI Smart Note Taker - Notedy",
+    "developer": "PresB Tech",
+    "score": null,
+    "found_with_query": "smart notes AI"
+  },
+  {
+    "appId": "com.app.voicenotes",
+    "title": "Voicenotes",
+    "developer": "Coping Hard Inc.",
+    "score": 3.98,
+    "found_with_query": "voice notes AI"
+  },
+  {
+    "appId": "app.getvoicenotes.voicenotes",
+    "title": "Voice Notes AI: Speech to Text",
+    "developer": "SaiTech Innovations LLC",
+    "score": null,
+    "found_with_query": "voice notes AI"
+  },
+  {
+    "appId": "com.rrd.ideaShell",
+    "title": "ideaShell: AI Voice Notes",
+    "developer": "RoundRedDot Inc.",
+    "score": 4.642105,
+    "found_with_query": "voice notes AI"
+  },
+  {
+    "appId": "com.innosq.soundtypeai",
+    "title": "SoundType AI - Voice To Text",
+    "developer": "Innosquares limited",
+    "score": 4.5137615,
+    "found_with_query": "voice notes AI"
+  },
+  {
+    "appId": "com.voicememos.app",
+    "title": "Voice Memos – Study Notes",
+    "developer": "Tech Primo",
+    "score": 3.909091,
+    "found_with_query": "voice notes AI"
+  },
+  {
+    "appId": "com.pradip.notebookai",
+    "title": "Notebook AI",
+    "developer": "Pradip Khamkar",
+    "score": 0,
+    "found_with_query": "AI notebook"
+  },
+  {
+    "appId": "net.dailylabs.daily_app",
+    "title": "AI Journal Notebook - Reflectr",
+    "developer": "Daily Labs, LLC",
+    "score": 4.1,
+    "found_with_query": "AI notebook"
+  }
+]

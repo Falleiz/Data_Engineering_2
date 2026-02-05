@@ -1,0 +1,272 @@
+{
+  "extraction_date": "2026-01-12T00:55:11.577899",
+  "total_apps": 44,
+  "total_reviews": 11346,
+  "average_reviews_per_app": 257.8636363636364,
+  "reviews_per_app": [
+    {
+      "appId": "com.aisense.otter",
+      "app_title": "OtterAI Transcribe Voice Notes",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "ai.turbolearn",
+      "app_title": "Turbo AI - Notetaker",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "com.codespaceapps.meetingtranscriber",
+      "app_title": "Smart Noter - AI Note Taker",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "com.google.android.apps.labs.language.tailwind",
+      "app_title": "Google NotebookLM",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "ai.fireflies.mobile",
+      "app_title": "Fireflies: AI notetaker",
+      "reviews_count": 270,
+      "has_more": true
+    },
+    {
+      "appId": "io.labhouse.audioapp",
+      "app_title": "Summary - AI Note Taker",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "notion.id",
+      "app_title": "Notion: Notes, Tasks, AI",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "com.studocu.app",
+      "app_title": "Studocu: AI Notes & Summaries",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "com.ma.waveapp",
+      "app_title": "Wave AI Note Taker & Recorder",
+      "reviews_count": 250,
+      "has_more": true
+    },
+    {
+      "appId": "com.yygg.note.app",
+      "app_title": "Notewise - AI Notes, PDF, Docs",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "com.sota.ainotex",
+      "app_title": "NoteX: AI Note Taker, Notebook",
+      "reviews_count": 99,
+      "has_more": true
+    },
+    {
+      "appId": "com.hubx.noteai",
+      "app_title": "Note AI: Smart Note Taker",
+      "reviews_count": 475,
+      "has_more": true
+    },
+    {
+      "appId": "com.meetgeek.assistant",
+      "app_title": "AI Transcribe. Speech to Text",
+      "reviews_count": 66,
+      "has_more": true
+    },
+    {
+      "appId": "com.feraset.ainote",
+      "app_title": "AI Note Taker - Meeting Notes",
+      "reviews_count": 74,
+      "has_more": true
+    },
+    {
+      "appId": "app.coconote",
+      "app_title": "Coconote - AI Note Taker",
+      "reviews_count": 142,
+      "has_more": true
+    },
+    {
+      "appId": "com.recordpro.audiorecord",
+      "app_title": "HiNoter - AI Note Taker",
+      "reviews_count": 14,
+      "has_more": true
+    },
+    {
+      "appId": "com.microsoft.office.onenote",
+      "app_title": "Microsoft OneNote: Save Notes",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "com.myscript.nebo",
+      "app_title": "MyScript Notes (Nebo)",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "com.goodnotes.android.app",
+      "app_title": "Goodnotes: AI Notes, Docs, PDF",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "easynotes.notes.notepad.notebook.privatenotes.note",
+      "app_title": "Easy Notes - Note Taking Apps",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "com.appzone.noteai",
+      "app_title": "Notes AI: Note Taker, Notebook",
+      "reviews_count": 28,
+      "has_more": true
+    },
+    {
+      "appId": "evolly.app.ainote",
+      "app_title": "AI Note Taker - Voice to Notes",
+      "reviews_count": 78,
+      "has_more": true
+    },
+    {
+      "appId": "com.zoho.notebook",
+      "app_title": "Notebook - AI Notes & Notepad",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "ai.meeting.app",
+      "app_title": "Meeting.ai: AI Visual Notes",
+      "reviews_count": 123,
+      "has_more": true
+    },
+    {
+      "appId": "com.langogo.transcribe",
+      "app_title": "Notta-Transcribe Audio to Text",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "voice.recorder.note.ai.transcriber",
+      "app_title": "Note AI: Voice AI Transcribe",
+      "reviews_count": 20,
+      "has_more": true
+    },
+    {
+      "appId": "ai.plaud.android.plaud",
+      "app_title": "Plaud: AI Notetaker",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "com.inoid.notter.ai.note.taker",
+      "app_title": "NotterAI - AI Note Taker",
+      "reviews_count": 6,
+      "has_more": true
+    },
+    {
+      "appId": "newway.good.note.ai.notepad.notebook.checklist.gpt",
+      "app_title": "AI Notes & Transcribe Memo",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "ai.notes.notebook",
+      "app_title": "HyNote: AI Notebook LLM Notes",
+      "reviews_count": 248,
+      "has_more": true
+    },
+    {
+      "appId": "com.thesaifhusain.ainote",
+      "app_title": "AI Notes",
+      "reviews_count": 15,
+      "has_more": true
+    },
+    {
+      "appId": "mia.smartnotes.app",
+      "app_title": "Smart Notes: AI Summary, Quiz",
+      "reviews_count": 4,
+      "has_more": true
+    },
+    {
+      "appId": "com.tutr.smartnotes",
+      "app_title": "Smart Notes AI: Study & PDF",
+      "reviews_count": 1,
+      "has_more": true
+    },
+    {
+      "appId": "com.smartnoteai.app",
+      "app_title": "Smart Notes AI - Study Tool",
+      "reviews_count": 0,
+      "has_more": true
+    },
+    {
+      "appId": "com.james.SmartNotepad",
+      "app_title": "Smart Notes",
+      "reviews_count": 207,
+      "has_more": true
+    },
+    {
+      "appId": "com.ozeito.notemind",
+      "app_title": "AI Note Taker – Smart Notes",
+      "reviews_count": 1,
+      "has_more": true
+    },
+    {
+      "appId": "com.presbtech.notedy",
+      "app_title": "AI Smart Note Taker - Notedy",
+      "reviews_count": 4,
+      "has_more": true
+    },
+    {
+      "appId": "com.app.voicenotes",
+      "app_title": "Voicenotes",
+      "reviews_count": 465,
+      "has_more": true
+    },
+    {
+      "appId": "app.getvoicenotes.voicenotes",
+      "app_title": "Voice Notes AI: Speech to Text",
+      "reviews_count": 0,
+      "has_more": true
+    },
+    {
+      "appId": "com.rrd.ideaShell",
+      "app_title": "ideaShell: AI Voice Notes",
+      "reviews_count": 52,
+      "has_more": true
+    },
+    {
+      "appId": "com.innosq.soundtypeai",
+      "app_title": "SoundType AI - Voice To Text",
+      "reviews_count": 500,
+      "has_more": true
+    },
+    {
+      "appId": "com.voicememos.app",
+      "app_title": "Voice Memos – Study Notes",
+      "reviews_count": 30,
+      "has_more": true
+    },
+    {
+      "appId": "com.pradip.notebookai",
+      "app_title": "Notebook AI",
+      "reviews_count": 2,
+      "has_more": true
+    },
+    {
+      "appId": "net.dailylabs.daily_app",
+      "app_title": "AI Journal Notebook - Reflectr",
+      "reviews_count": 172,
+      "has_more": true
+    }
+  ]
+}
