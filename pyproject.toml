@@ -13,6 +13,8 @@ requests = ">=2.32.5,<3.0.0"
 ipykernel = ">=7.1.0,<8.0.0"
 google-play-scraper = {version = "^1.2.7", python = ">=3.12,<4.0"}
 pypdf2 = "^3.0.1"
+streamlit = "^1.54.0"
+plotly = "^6.5.2"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
