@@ -1,43 +1,37 @@
 app_id,app_name,num_reviews,avg_rating,pct_low_rating,first_review_date,last_review_date
-ai.turbolearn,Turbo AI - Notetaker,500,4.47,7.8,2025-12-31 11:07:15,2026-01-11 00:36:03
-ai.plaud.android.plaud,Plaud: AI Notetaker,500,4.41,11.4,2025-05-25 08:33:37,2026-01-10 05:06:10
-com.codespaceapps.meetingtranscriber,Smart Noter - AI Note Taker,500,3.7,28.2,2025-09-28 11:20:40,2026-01-10 12:25:42
-com.aisense.otter,OtterAI Transcribe Voice Notes,500,2.83,50.2,2025-02-13 13:35:16,2026-01-09 21:53:57
-com.myscript.nebo,MyScript Notes (Nebo),500,3.13,41.0,2025-07-27 04:06:26,2026-01-10 23:22:52
-com.microsoft.office.onenote,Microsoft OneNote: Save Notes,500,3.79,26.0,2025-12-04 06:07:04,2026-01-10 23:36:55
-com.innosq.soundtypeai,SoundType AI - Voice To Text,500,4.3,12.2,2025-08-11 05:24:43,2026-01-10 10:48:06
-com.langogo.transcribe,Notta-Transcribe Audio to Text,500,3.05,45.0,2025-01-30 21:27:10,2026-01-10 19:07:32
-com.google.android.apps.labs.language.tailwind,Google NotebookLM,500,4.52,7.0,2025-12-28 20:56:59,2026-01-11 00:53:29
-com.goodnotes.android.app,"Goodnotes: AI Notes, Docs, PDF",500,2.32,63.6,2025-10-05 19:53:56,2026-01-10 21:35:03
-easynotes.notes.notepad.notebook.privatenotes.note,Easy Notes - Note Taking Apps,500,4.65,5.6,2025-12-04 03:26:42,2026-01-10 19:56:10
-io.labhouse.audioapp,Summary - AI Note Taker,500,3.92,22.2,2025-11-08 22:13:31,2026-01-10 23:24:14
-notion.id,"Notion: Notes, Tasks, AI",500,3.89,23.0,2025-11-24 17:49:48,2026-01-10 18:28:00
-newway.good.note.ai.notepad.notebook.checklist.gpt,AI Notes & Transcribe Memo,500,3.63,30.6,2023-06-29 17:15:42,2026-01-02 02:06:04
-com.yygg.note.app,"Notewise - AI Notes, PDF, Docs",500,3.71,27.0,2025-09-17 15:38:03,2026-01-10 20:57:25
-com.studocu.app,Studocu: AI Notes & Summaries,500,4.48,7.8,2025-08-04 08:28:52,2026-01-09 18:49:30
-com.zoho.notebook,Notebook - AI Notes & Notepad,500,4.01,20.4,2025-10-16 20:06:23,2026-01-10 19:18:25
-com.hubx.noteai,Note AI: Smart Note Taker,475,3.58,32.42,2025-03-04 14:14:43,2026-01-10 08:24:24
-com.app.voicenotes,Voicenotes,465,3.83,24.52,2024-05-03 10:41:06,2026-01-08 20:55:19
-ai.fireflies.mobile,Fireflies: AI notetaker,270,3.98,20.37,2023-09-04 17:54:48,2026-01-10 14:06:23
-com.ma.waveapp,Wave AI Note Taker & Recorder,250,3.35,38.0,2024-08-01 20:18:29,2026-01-08 20:52:47
-ai.notes.notebook,HyNote: AI Notebook LLM Notes,248,4.04,18.55,2024-12-13 18:27:18,2026-01-02 06:35:55
+ai.note.notepad.memo.journal.freenote,Freenotes - Notes Taking & PDF,500,4.73,4.0,2025-12-25 08:29:06,2026-02-05 10:52:47
+com.aisense.otter,OtterAI Transcribe Voice Notes,500,2.86,49.2,2025-03-01 01:49:53,2026-02-05 06:18:15
+ai.turbolearn,Turbo AI - Notetaker,500,4.48,8.6,2026-01-22 13:22:27,2026-02-05 11:30:03
+ai.plaud.android.plaud,Plaud: AI Note Taker,500,4.39,11.6,2025-06-16 10:55:01,2026-02-05 11:02:01
+com.studocu.app,Studocu: AI Notes & Summaries,500,4.45,8.6,2025-08-27 20:52:16,2026-02-04 18:46:15
+com.yygg.note.app,"Notewise - AI Notes, PDF, Docs",500,3.66,28.6,2025-10-01 11:12:44,2026-02-05 05:59:02
+notion.id,"Notion: Notes, Tasks, AI",500,4.02,19.8,2025-12-22 14:42:46,2026-02-05 07:33:54
+com.google.android.apps.labs.language.tailwind,Google NotebookLM,500,4.48,8.2,2026-01-24 15:30:44,2026-02-05 11:35:32
+com.gawk.voicenotes,Voice notes,500,4.22,14.6,2019-07-31 20:22:20,2025-11-25 21:55:07
+com.goodnotes.android.app,"Goodnotes: AI Notes, Docs, PDF",500,2.34,62.8,2025-10-19 19:10:49,2026-02-05 07:51:34
+com.e9foreverfs.note,"Smart Note - Notes, Notepad",500,4.67,5.4,2022-09-12 14:21:00,2026-02-05 04:04:54
+com.codespaceapps.meetingtranscriber,Smart Noter - AI Note Taker,500,3.71,27.6,2025-10-02 17:03:07,2026-02-05 09:59:53
+com.microsoft.office.onenote,Microsoft OneNote: Save Notes,500,3.67,26.8,2026-01-01 21:31:22,2026-02-05 10:42:57
+io.labhouse.audioapp,Summary - AI Note Taker,500,4.18,16.4,2025-12-17 15:00:11,2026-02-05 11:47:29
+com.hubx.noteai,Note AI: Smart Note Taker,489,3.59,32.11,2025-03-04 14:14:43,2026-02-04 06:58:53
+com.app.voicenotes,Voicenotes,473,3.81,25.16,2024-05-03 10:41:06,2026-02-03 11:38:20
+ai.fireflies.mobile,Fireflies: AI notetaker,291,3.92,22.34,2023-09-04 17:54:48,2026-02-01 23:39:44
+com.ma.waveapp,Wave AI Note Taker & Recorder,259,3.34,38.22,2024-08-01 20:18:29,2026-02-04 01:07:28
+ai.notes.notebook,HyNote: AI Notebook LLM Notes,254,4.05,18.11,2024-12-13 18:27:18,2026-02-02 02:43:52
+ru.babushkinanatoly.development.voicenotepad,Voice Notes - Speech to text,227,4.22,12.33,2020-03-30 15:32:34,2026-02-02 12:56:00
 com.james.SmartNotepad,Smart Notes,207,4.02,15.94,2010-10-23 19:54:27,2025-12-08 19:02:03
-net.dailylabs.daily_app,AI Journal Notebook - Reflectr,172,4.37,9.3,2023-05-08 23:03:18,2026-01-08 16:56:13
-app.coconote,Coconote - AI Note Taker,142,3.77,27.46,2025-04-24 05:45:15,2026-01-10 11:52:16
-ai.meeting.app,Meeting.ai: AI Visual Notes,123,4.37,13.01,2024-07-02 03:26:37,2026-01-04 02:25:01
-com.sota.ainotex,"NoteX: AI Note Taker, Notebook",99,3.63,29.29,2024-11-05 19:04:57,2026-01-09 17:07:10
-evolly.app.ainote,AI Note Taker - Voice to Notes,78,3.37,34.62,2025-01-08 19:48:30,2026-01-06 17:25:56
-com.feraset.ainote,AI Note Taker - Meeting Notes,74,3.49,36.49,2024-08-31 18:34:42,2026-01-10 22:20:58
-com.meetgeek.assistant,AI Transcribe. Speech to Text,66,3.89,24.24,2023-12-08 12:50:03,2025-12-30 12:26:07
-com.rrd.ideaShell,ideaShell: AI Voice Notes,52,4.52,7.69,2025-04-12 18:04:08,2026-01-10 19:56:08
-com.voicememos.app,Voice Memos – Study Notes,30,4.17,20.0,2025-01-09 17:57:01,2026-01-08 17:24:14
-com.appzone.noteai,"Notes AI: Note Taker, Notebook",28,4.25,14.29,2025-05-19 13:45:42,2026-01-06 19:14:44
-voice.recorder.note.ai.transcriber,Note AI: Voice AI Transcribe,20,3.65,25.0,2025-06-10 12:03:18,2025-11-08 00:58:09
+app.coconote,Coconote - AI Note Taker,164,3.82,26.22,2025-04-24 05:45:15,2026-02-04 18:14:31
+ai.meeting.app,Meeting.ai: AI Visual Notes,128,4.37,13.28,2024-07-02 03:26:37,2026-02-04 15:39:23
+com.sota.ainotex,NoteX: AI Notes & Meetings,106,3.67,28.3,2024-11-05 19:04:57,2026-02-02 05:19:05
+com.compasswearable,Fieldy - AI note taker,105,2.83,50.48,2024-09-24 03:28:21,2026-02-04 01:23:16
+evolly.app.ainote,AI Note Taker - Voice to Notes,81,3.28,37.04,2025-01-08 19:48:30,2026-02-02 19:07:13
+com.feraset.ainote,AI Note Taker - Meeting Notes,75,3.51,36.0,2024-08-31 18:34:42,2026-01-21 11:08:34
+com.meetgeek.assistant,AI Transcribe. Speech to Text,70,3.84,25.71,2023-12-08 12:50:03,2026-02-02 15:43:39
+ai.voicetonotes.mobileapp,VoiceToNotes AI: Voice to Text,41,3.76,21.95,2025-07-17 20:06:01,2026-02-03 17:05:17
+co.diy14.vlkol,Smart Notes,40,4.28,17.5,2023-08-12 13:24:05,2026-01-17 21:43:57
+com.recordpro.audiorecord,HiNoter - AI Note Taker,30,3.93,16.67,2025-09-09 10:45:35,2026-02-04 22:48:51
 com.thesaifhusain.ainote,AI Notes,15,4.0,20.0,2024-03-06 12:58:44,2025-07-25 14:06:10
-com.recordpro.audiorecord,HiNoter - AI Note Taker,14,4.29,14.29,2025-09-09 10:45:35,2026-01-10 08:21:10
-com.inoid.notter.ai.note.taker,NotterAI - AI Note Taker,6,5.0,0.0,2025-09-29 07:34:38,2025-11-22 13:50:21
-com.presbtech.notedy,AI Smart Note Taker - Notedy,4,3.0,50.0,2025-07-06 19:48:12,2025-11-06 17:04:18
+com.imemoapp,iMemo AI Note Taker Transcribe,11,4.73,9.09,2024-12-27 00:40:25,2025-10-12 16:12:51
+com.artmvstd.voiceTranscriber,"AI Note Taking, Memo: NoteHive",5,3.8,20.0,2025-06-11 17:48:43,2025-12-13 13:44:11
 mia.smartnotes.app,"Smart Notes: AI Summary, Quiz",4,4.5,0.0,2025-08-25 21:22:10,2025-11-10 00:48:30
-com.pradip.notebookai,Notebook AI,2,5.0,0.0,2025-11-06 19:10:57,2025-11-15 01:43:09
 com.ozeito.notemind,AI Note Taker – Smart Notes,1,5.0,0.0,2025-10-06 07:22:40,2025-10-06 07:22:40
-com.tutr.smartnotes,Smart Notes AI: Study & PDF,1,5.0,0.0,2025-12-20 06:04:09,2025-12-20 06:04:09

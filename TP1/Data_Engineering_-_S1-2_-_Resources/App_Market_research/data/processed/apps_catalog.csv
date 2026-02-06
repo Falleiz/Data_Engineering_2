@@ -1,45 +1,43 @@
 appId,title,developer,score,ratings,installs,genre,price
-com.aisense.otter,OtterAI Transcribe Voice Notes,Otter.ai,4.33,25629.0,5000000,Productivity,0.0
-ai.turbolearn,Turbo AI - Notetaker,Turbo AI,4.71,231322.0,1000000,Education,0.0
-com.codespaceapps.meetingtranscriber,Smart Noter - AI Note Taker,Deep Flow Apps,4.28,61106.0,5000000,Productivity,0.0
-com.google.android.apps.labs.language.tailwind,Google NotebookLM,Google LLC,4.83,104499.0,10000000,Productivity,0.0
-ai.fireflies.mobile,Fireflies: AI notetaker,Fireflies.ai,4.72,3751.0,100000,Productivity,0.0
-io.labhouse.audioapp,Summary - AI Note Taker,Labhouse Mobile,4.59,17487.0,100000,Productivity,0.0
-notion.id,"Notion: Notes, Tasks, AI","Notion Labs, Inc.",4.68,325077.0,10000000,Productivity,0.0
-com.studocu.app,Studocu: AI Notes & Summaries,Studocu,4.63,20157.0,1000000,Education,0.0
-com.ma.waveapp,Wave AI Note Taker & Recorder,Mohrer Associates,4.57,1855.0,100000,Productivity,0.0
-com.yygg.note.app,"Notewise - AI Notes, PDF, Docs",Notewise,4.56,23788.0,5000000,Productivity,0.0
-com.sota.ainotex,"NoteX: AI Note Taker, Notebook",SotaLabs,4.41,1580.0,100000,Productivity,0.0
-com.hubx.noteai,Note AI: Smart Note Taker,HubX,4.32,7001.0,100000,Productivity,0.0
-com.meetgeek.assistant,AI Transcribe. Speech to Text,MeetGeek: AI Note Taker. Transcribe Speech to Text,4.4,904.0,100000,Productivity,0.0
-com.feraset.ainote,AI Note Taker - Meeting Notes,FERASET,4.29,1535.0,10000,Education,0.0
-app.coconote,Coconote - AI Note Taker,Quizlet Inc.,4.46,1788.0,100000,Education,0.0
-com.recordpro.audiorecord,HiNoter - AI Note Taker,Nieruo Team,4.56,485.0,50000,Productivity,0.0
-com.microsoft.office.onenote,Microsoft OneNote: Save Notes,Microsoft Corporation,4.64,1455686.0,500000000,Productivity,0.0
-com.myscript.nebo,MyScript Notes (Nebo),MyScript,4.46,30118.0,1000000,Productivity,0.0
-com.goodnotes.android.app,"Goodnotes: AI Notes, Docs, PDF",Goodnotes,3.49,24406.0,1000000,Productivity,0.0
-easynotes.notes.notepad.notebook.privatenotes.note,Easy Notes - Note Taking Apps,"Gulooloo Tech Co., Ltd.",4.69,385641.0,10000000,Productivity,0.0
-com.appzone.noteai,"Notes AI: Note Taker, Notebook",AppZone AI,4.63,179.0,5000,Productivity,0.0
-evolly.app.ainote,AI Note Taker - Voice to Notes,EVOLLY HK,4.02,795.0,100000,Productivity,0.0
-com.zoho.notebook,Notebook - AI Notes & Notepad,Zoho Corporation,4.13,62431.0,5000000,Productivity,0.0
-ai.meeting.app,Meeting.ai: AI Visual Notes,Meeting.ai,4.59,11125.0,100000,Productivity,0.0
-com.langogo.transcribe,Notta-Transcribe Audio to Text,NOTTA PTE. LTD.,3.9,17856.0,1000000,Productivity,0.0
-voice.recorder.note.ai.transcriber,Note AI: Voice AI Transcribe,AI Chat Studio,4.22,82.0,10000,Productivity,0.0
-ai.plaud.android.plaud,Plaud: AI Notetaker,PLAUD LLC,4.64,7277.0,100000,Tools,0.0
-com.inoid.notter.ai.note.taker,NotterAI - AI Note Taker,iNoid Solutions,,,1000,Productivity,0.0
-newway.good.note.ai.notepad.notebook.checklist.gpt,AI Notes & Transcribe Memo,Newway Apps,4.22,5400.0,1000000,Productivity,0.0
-ai.notes.notebook,HyNote: AI Notebook LLM Notes,Turing Intelligence,4.45,3243.0,100000,Productivity,0.0
-com.thesaifhusain.ainote,AI Notes,Eden Coders,4.89,40.0,5000,Productivity,0.0
-mia.smartnotes.app,"Smart Notes: AI Summary, Quiz",MIA DIGITAL SOLUTIONS,0.0,0.0,10000,Productivity,0.0
-com.tutr.smartnotes,Smart Notes AI: Study & PDF,Tran Phuoc Tu,,,500,Productivity,0.0
-com.smartnoteai.app,Smart Notes AI - Study Tool,Hoàng Nhật Long,,,10,Productivity,0.0
-com.james.SmartNotepad,Smart Notes,SMARTWHO,4.27,2308.0,100000,Productivity,0.0
+com.google.android.apps.labs.language.tailwind,Google NotebookLM,Google LLC,4.83,128871.0,10000000,Productivity,0.0
+ai.turbolearn,Turbo AI - Notetaker,Turbo AI,4.74,247452.0,1000000,Education,0.0
+com.aisense.otter,OtterAI Transcribe Voice Notes,Otter.ai,4.31,25899.0,5000000,Productivity,0.0
+com.codespaceapps.meetingtranscriber,Smart Noter - AI Note Taker,Deep Flow Apps,4.34,63410.0,5000000,Productivity,0.0
+io.labhouse.audioapp,Summary - AI Note Taker,Labhouse Mobile,4.74,27305.0,500000,Productivity,0.0
+com.yygg.note.app,"Notewise - AI Notes, PDF, Docs",Notewise,4.59,24517.0,5000000,Productivity,0.0
+ai.fireflies.mobile,Fireflies: AI notetaker,Fireflies.ai,4.63,4162.0,100000,Productivity,0.0
+notion.id,"Notion: Notes, Tasks, AI","Notion Labs, Inc.",4.68,333773.0,10000000,Productivity,0.0
+com.studocu.app,Studocu: AI Notes & Summaries,Studocu,4.58,21591.0,1000000,Education,0.0
+com.recordpro.audiorecord,HiNoter - AI Note Taker,Nieruo Team,4.58,2109.0,100000,Productivity,0.0
+com.meetgeek.assistant,AI Transcribe. Speech to Text,MeetGeek: AI Note Taker. Transcribe Speech to Text,4.4,915.0,100000,Productivity,0.0
+ai.notes.notebook,HyNote: AI Notebook LLM Notes,Turing Intelligence,4.41,3360.0,100000,Productivity,0.0
+com.ma.waveapp,Wave AI Note Taker & Recorder,Mohrer Associates,4.55,1971.0,100000,Productivity,0.0
+com.sota.ainotex,NoteX: AI Notes & Meetings,SotaLabs,4.34,1733.0,100000,Productivity,0.0
+ai.meeting.app,Meeting.ai: AI Visual Notes,Meeting.ai,4.59,12064.0,100000,Productivity,0.0
+com.hubx.noteai,Note AI: Smart Note Taker,HubX,4.38,7206.0,100000,Productivity,0.0
+ai.note.notepad.memo.journal.freenote,Freenotes - Notes Taking & PDF,Freenotes Inc,4.51,5795.0,500000,Productivity,0.0
+app.coconote,Coconote - AI Note Taker,Quizlet Inc.,4.41,2117.0,100000,Education,0.0
+com.feraset.ainote,AI Note Taker - Meeting Notes,FERASET,4.29,1589.0,10000,Education,0.0
+com.compasswearable,Fieldy - AI note taker,Field Labs Inc,3.97,356.0,5000,Lifestyle,0.0
+com.goodnotes.android.app,"Goodnotes: AI Notes, Docs, PDF",Goodnotes,3.73,25928.0,1000000,Productivity,0.0
+ai.plaud.android.plaud,Plaud: AI Note Taker,PLAUD LLC,4.62,7768.0,100000,Tools,0.0
+com.microsoft.office.onenote,Microsoft OneNote: Save Notes,Microsoft Corporation,4.63,1461044.0,500000000,Productivity,0.0
+evolly.app.ainote,AI Note Taker - Voice to Notes,EVOLLY HK,3.95,841.0,100000,Productivity,0.0
+com.artmvstd.voiceTranscriber,"AI Note Taking, Memo: NoteHive",Artmvstd,4.88,70.0,1000,Productivity,0.0
+com.imemoapp,iMemo AI Note Taker Transcribe,Ratel,4.37,105.0,5000,Productivity,0.0
+com.thesaifhusain.ainote,AI Notes,Eden Coders,4.88,39.0,10000,Productivity,0.0
+com.smartnoteai.app,Smart Notes AI - Study Tool,Hoàng Nhật Long,,,50,Productivity,0.0
+mia.smartnotes.app,"Smart Notes: AI Summary, Quiz",MIA DIGITAL SOLUTIONS,,0.0,10000,Productivity,0.0
+com.e9foreverfs.note,"Smart Note - Notes, Notepad",Superior Mobile Apps,4.66,24091.0,1000000,Productivity,0.0
+co.diy14.vlkol,Smart Notes,Smart Notes,,,10000,Education,0.0
+com.zyro.notes.ai,Smart Note AI,Zyro Interactive,,,10,Education,0.0
+com.ai.note.voicenote.notetaker.app,AI Note Taker: Smart Noter,Alish Root,,,100,Productivity,0.0
+com.easynote.task.reminder,EasyNote AI: Smart Notes,belamixDev,,0.0,1000,Tools,0.0
+com.james.SmartNotepad,Smart Notes,SMARTWHO,4.28,2304.0,100000,Productivity,0.0
 com.ozeito.notemind,AI Note Taker – Smart Notes,Ozeito LTD,,,100,Productivity,0.0
-com.presbtech.notedy,AI Smart Note Taker - Notedy,PresB Tech,,,50000,Productivity,0.0
-com.app.voicenotes,Voicenotes,Coping Hard Inc.,3.98,2442.0,100000,Productivity,0.0
-app.getvoicenotes.voicenotes,Voice Notes AI: Speech to Text,SaiTech Innovations LLC,,,10,Productivity,0.0
-com.rrd.ideaShell,ideaShell: AI Voice Notes,RoundRedDot Inc.,4.64,5285.0,100000,Tools,0.0
-com.innosq.soundtypeai,SoundType AI - Voice To Text,Innosquares limited,4.51,41009.0,1000000,Productivity,0.0
-com.voicememos.app,Voice Memos – Study Notes,Tech Primo,3.91,139.0,10000,Productivity,0.0
-com.pradip.notebookai,Notebook AI,Pradip Khamkar,0.0,0.0,500,Productivity,0.0
-net.dailylabs.daily_app,AI Journal Notebook - Reflectr,"Daily Labs, LLC",4.1,733.0,50000,Productivity,0.0
+com.app.voicenotes,Voicenotes,Coping Hard Inc.,3.97,2491.0,100000,Productivity,0.0
+app.getvoicenotes.voicenotes,Voice Notes AI: Speech to Text,SaiTech Innovations LLC,,,50,Productivity,0.0
+ai.voicetonotes.mobileapp,VoiceToNotes AI: Voice to Text,Rana Quest™,4.0,168.0,100000,Productivity,0.0
+ru.babushkinanatoly.development.voicenotepad,Voice Notes - Speech to text,UXAPPS LTD,4.5,10472.0,100000,Tools,0.0
+com.gawk.voicenotes,Voice notes,GawkAr,4.41,13056.0,1000000,Productivity,0.0
+uz.zarifergashev.ai_note,NoteLark – Voice Notes AI,Ergashev Zarifjon,,,10,Productivity,0.0
