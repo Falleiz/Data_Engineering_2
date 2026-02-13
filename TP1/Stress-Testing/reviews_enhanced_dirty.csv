@@ -1,6 +1,0 @@
-app_id,app_name,reviewId,userName,score,content,thumbsUpCount,at,text_sentiment_score,positive_keywords_count,negative_keywords_count,detected_keywords,numeric_sentiment_normalized,is_contradiction,contradiction_type,contradiction_severity
-com.notewise.ai,Notewise,r_2103,Salma,3.0,Okay app.,1.0,not_a_date,0.0,0,0,[],0.0,False,no_contradiction,0.0
-com.otter.ai,Otter AI,r_2106,Yahya,5.0,Excellent transcription.,5.0,2025-02-10 10:30:00,1.0,1,0,['excellent'],1.0,False,no_contradiction,0.0
-com.otter.ai,Otter AI,r_2107,Meryem,2.0,Slow sync.,,2025-02-10 11:00:00,-1.0,0,1,['slow'],-0.5,False,no_contradiction,0.0
-com.newnote.ai,NewNote,r_2108,Samir,4.0,Promising.,1.0,2025-02-10 11:30:00,0.0,0,0,[],0.5,False,no_contradiction,0.0
-com.newnote.ai,NewNote,r_2110,Noor,1.0,Crashes often.,3.0,2025-02-10 12:30:00,-1.0,0,2,"['crash', 'crashes']",-1.0,False,no_contradiction,0.0
