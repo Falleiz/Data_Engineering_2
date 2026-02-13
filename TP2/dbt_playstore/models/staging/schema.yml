@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_playstore_apps
+    description: Staging model for Google Play Store apps metadata.
+    columns:
+      - name: app_id
+        description: Unique identifier for the app.
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_playstore_reviews
+    description: Staging model for Google Play Store app reviews.
+    columns:
+      - name: review_id
+        description: Unique identifier for the review.
+        tests:
+          - unique
+          - not_null
+      - name: app_id
+        description: Identifier of the app being reviewed.
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_playstore_apps')
+              field: app_id

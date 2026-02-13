@@ -1,0 +1,11 @@
+dbt_playstore:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'playstore.duckdb'
+      extensions:
+        - httpfs
+        - parquet
+      settings:
+        temp_directory: 'dbt_tmp'

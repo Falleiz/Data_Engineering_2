@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: dim_apps
+    description: Dimension table for applications.
+    columns:
+      - name: app_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_dates
+    description: Dimension table for dates.
+    columns:
+      - name: date_day
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_reviews
+    description: Fact table for reviews.
+    columns:
+      - name: review_id
+        tests:
+          - unique
+          - not_null
+      - name: app_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_apps')
+              field: app_id
+      - name: date_day
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_dates')
+              field: date_day
