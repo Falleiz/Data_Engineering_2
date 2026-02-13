@@ -16,7 +16,10 @@ renamed as (
         currency,
         developer,
         developerId as developer_id,
+        developerEmail as developer_email,   
+        developerWebsite as developer_website, 
         genre,
+        genreId as genre_id,                 
         released as released_date,
         updated as updated_timestamp,
         url

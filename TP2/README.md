@@ -12,7 +12,7 @@ graph LR
     A["Raw JSON Data"] --> B("DuckDB Database")
     B --> C{"dbt Staging Layer"}
     C --> D{"dbt Marts Layer"}
-    D --> E["Star Schema"]
+    D --> E["Snowflake Schema"]
     E --> F["Dashboard (Streamlit/Tableau)"]
 ```
 
@@ -22,11 +22,13 @@ graph LR
 - **Models**: `stg_playstore_apps`, `stg_playstore_reviews`.
 
 ### 2. Marts Layer (`models/marts`)
-- **Model**: Star Schema.
-- **Fact**: `fct_reviews` (Transactional review data).
+- **Model**: Snowflake Schema (Normalized Dimensions).
+- **Fact**: `fact_reviews` (Transactional review data with Surrogate Keys).
 - **Dimensions**: 
     - `dim_apps` (Application context).
-    - `dim_dates` (Temporal context).
+    - `dim_categories` (Genre normalization).
+    - `dim_developers` (Developer normalization).
+    - `dim_date` (Temporal context with integer keys).
 
 ## 🚀 Usage
 

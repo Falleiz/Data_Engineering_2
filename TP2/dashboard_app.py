@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config(layout="wide", page_title="Play Store Analytics")
 
-st.title("📊 Google Play Store Analytics")
+st.title("📊 Google Play Store Analytics (Snowflake Schema)")
 st.markdown("Data powered by **dbt** & **DuckDB**")
 
 
@@ -12,85 +12,106 @@ st.markdown("Data powered by **dbt** & **DuckDB**")
 @st.cache_resource
 def get_connection():
     # Connect to the DuckDB database file created by dbt
-    conn = duckdb.connect("dbt_playstore/playstore.duckdb", read_only=True)
-    return conn
+    try:
+        conn = duckdb.connect("dbt_playstore/playstore.duckdb", read_only=True)
+        return conn
+    except Exception as e:
+        st.error(f"Error connecting to database: {e}")
+        return None
 
 
 conn = get_connection()
 
-# --- SIDEBAR FILTERS ---
-st.sidebar.header("Filters")
+if conn:
+    # --- SIDEBAR FILTERS ---
+    st.sidebar.header("Filters")
 
-# Get available categories from Dimension table
-categories = conn.execute(
-    "SELECT DISTINCT genre FROM dim_apps WHERE genre IS NOT NULL ORDER BY genre"
-).df()
-selected_genre = st.sidebar.selectbox(
-    "Select Category", ["All"] + categories["genre"].tolist()
-)
+    # Get available categories from dim_categories
+    try:
+        categories = conn.execute(
+            "SELECT DISTINCT category_name FROM dim_categories ORDER BY category_name"
+        ).df()
+        selected_genre = st.sidebar.selectbox(
+            "Select Category", ["All"] + categories["category_name"].tolist()
+        )
+    except:
+        st.warning(
+            "Could not load categories. Have you run 'dbt run' with the new schema?"
+        )
+        selected_genre = "All"
 
-# --- MAIN KPI METRICS ---
-col1, col2, col3 = st.columns(3)
+    # --- MAIN KPI METRICS ---
+    col1, col2, col3 = st.columns(3)
 
-# Total Reviews
-total_reviews_query = "SELECT COUNT(*) FROM fct_reviews"
-if selected_genre != "All":
-    total_reviews_query += f" WHERE app_id IN (SELECT app_id FROM dim_apps WHERE genre = '{selected_genre}')"
+    # Base Query Parts
+    base_query = """
+        FROM fact_reviews f
+        JOIN dim_apps a ON f.app_key = a.app_key
+        JOIN dim_categories c ON a.category_key = c.category_key
+    """
+    where_clause = ""
+    if selected_genre != "All":
+        where_clause = f" WHERE c.category_name = '{selected_genre}'"
 
-total_reviews = conn.execute(total_reviews_query).fetchone()[0]
-col1.metric("Total Reviews", f"{total_reviews:,}")
+    # Total Reviews
+    total_reviews = conn.execute(
+        f"SELECT COUNT(*) {base_query} {where_clause}"
+    ).fetchone()[0]
+    col1.metric("Total Reviews", f"{total_reviews:,}")
 
-# Average Rating
-avg_rating_query = "SELECT AVG(rating) FROM fct_reviews"
-if selected_genre != "All":
-    avg_rating_query += f" WHERE app_id IN (SELECT app_id FROM dim_apps WHERE genre = '{selected_genre}')"
+    # Average Rating
+    avg_rating = conn.execute(
+        f"SELECT AVG(f.rating) {base_query} {where_clause}"
+    ).fetchone()[0]
+    if avg_rating:
+        col2.metric("Average Rating", f"{avg_rating:.2f} ⭐")
+    else:
+        col2.metric("Average Rating", "N/A")
 
-avg_rating = conn.execute(avg_rating_query).fetchone()[0]
-col2.metric("Average Rating", f"{avg_rating:.2f} ⭐")
+    # --- CHARTS ---
 
-# --- CHARTS ---
+    # 1. Ratings Distribution
+    st.subheader("Ratings Distribution")
+    hist_query = f"""
+        SELECT 
+            f.rating, 
+            COUNT(*) as count 
+        {base_query}
+        {where_clause}
+        GROUP BY f.rating 
+        ORDER BY f.rating
+    """
+    df_hist = conn.execute(hist_query).df()
+    st.bar_chart(df_hist.set_index("rating"))
 
-# 1. Ratings Distribution
-st.subheader("Ratings Distribution")
-hist_query = """
-    SELECT 
-        rating, 
-        COUNT(*) as count 
-    FROM fct_reviews 
-    GROUP BY rating 
-    ORDER BY rating
-"""
-df_hist = conn.execute(hist_query).df()
-st.bar_chart(df_hist.set_index("rating"))
+    # 2. Daily Reviews Evolution (Time Dimension usage)
+    st.subheader("Reviews Evolution")
+    time_query = f"""
+        SELECT 
+            d.date,
+            COUNT(f.review_id) as daily_reviews
+        {base_query}
+        JOIN dim_date d ON f.date_key = d.date_key
+        {where_clause}
+        GROUP BY d.date
+        ORDER BY d.date
+    """
+    df_time = conn.execute(time_query).df()
+    st.line_chart(df_time.set_index("date"))
 
-# 2. Daily Reviews Evolution (Time Dimension usage)
-st.subheader("Reviews Evolution (2023)")
-time_query = """
-    SELECT 
-        d.date_day,
-        COUNT(r.review_id) as daily_reviews
-    FROM fct_reviews r
-    JOIN dim_dates d ON r.date_day = d.date_day
-    WHERE d.year = 2026 -- Adjust based on your data range
-    GROUP BY d.date_day
-    ORDER BY d.date_day
-"""
-df_time = conn.execute(time_query).df()
-st.line_chart(df_time.set_index("date_day"))
-
-# 3. Top Apps Table
-st.subheader("Top Used Apps")
-top_apps_query = """
-    SELECT 
-        da.app_name, 
-        da.genre,
-        AVG(fr.rating) as avg_score,
-        COUNT(fr.review_id) as review_count
-    FROM fct_reviews fr
-    JOIN dim_apps da ON fr.app_id = da.app_id
-    GROUP BY da.app_name, da.genre
-    ORDER BY review_count DESC
-    LIMIT 10
-"""
-df_top = conn.execute(top_apps_query).df()
-st.dataframe(df_top)
+    # 3. Top Apps Table
+    st.subheader("Top Used Apps")
+    top_apps_query = f"""
+        SELECT 
+            a.app_name, 
+            c.category_name as genre,
+            AVG(f.rating) as avg_score,
+            COUNT(f.review_id) as review_count
+        {base_query}
+        {where_clause}
+        GROUP BY a.app_name, c.category_name
+        ORDER BY review_count DESC
+        LIMIT 10
+    """
+    df_top = conn.execute(top_apps_query).df()
+    st.dataframe(df_top)

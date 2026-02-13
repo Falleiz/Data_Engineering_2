@@ -1,38 +1,74 @@
 version: 2
 
 models:
+  - name: dim_developers
+    description: Dimension table for developers.
+    columns:
+      - name: developer_key
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_categories
+    description: Dimension table for categories (genres).
+    columns:
+      - name: category_key
+        tests:
+          - unique
+          - not_null
+
   - name: dim_apps
     description: Dimension table for applications.
     columns:
+      - name: app_key
+        tests:
+          - unique
+          - not_null
       - name: app_id
         tests:
-          - unique
           - not_null
+      - name: developer_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_developers')
+              field: developer_key
+      - name: category_key
+        tests:
+          - relationships:
+              to: ref('dim_categories')
+              field: category_key
 
-  - name: dim_dates
+  - name: dim_date
     description: Dimension table for dates.
     columns:
-      - name: date_day
+      - name: date_key
         tests:
           - unique
           - not_null
 
-  - name: fct_reviews
+  - name: fact_reviews
     description: Fact table for reviews.
     columns:
       - name: review_id
         tests:
           - unique
           - not_null
-      - name: app_id
+      - name: app_key
         tests:
           - not_null
           - relationships:
               to: ref('dim_apps')
-              field: app_id
-      - name: date_day
+              field: app_key
+      - name: developer_key
         tests:
           - not_null
           - relationships:
-              to: ref('dim_dates')
-              field: date_day
+              to: ref('dim_developers')
+              field: developer_key
+      - name: date_key
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
