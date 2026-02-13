@@ -1,0 +1,2 @@
+app_name,userName,score,content,contradiction_type,contradiction_severity
+NewNote,Rachid,1,Very unstable.,low_rating_positive_text,1.0

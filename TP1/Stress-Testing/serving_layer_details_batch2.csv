@@ -1,0 +1,3 @@
+app_name,userName,score,content,contradiction_type,contradiction_severity
+Otter AI,Nadia,1,Stopped syncing.,mixed_contradiction,0.5
+NewNote,Kenza,3,Promising but buggy.,mixed_contradiction,0.5

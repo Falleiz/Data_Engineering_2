@@ -1,0 +1,11 @@
+appId,app_name,review_id,userName,score,content,likes,review_time,text_sentiment_score,positive_keywords_count,negative_keywords_count,detected_keywords,numeric_sentiment_normalized,is_contradiction,contradiction_type,contradiction_severity
+com.otter.ai,Otter AI,r_2201,Amina,4,Works well overall.,2,2025/02/05 08:00,0.0,0,0,[],0.5,False,no_contradiction,0.0
+com.notewise.ai,Notewise,r_2202,Youssef,2,Too many ads.,0,2025/02/05 08:30,0.0,0,0,[],-0.5,False,no_contradiction,0.0
+com.otter.ai,Otter AI,r_2203,Sara,5,Love transcription quality.,5,2025/02/05 09:00,1.0,1,0,['love'],1.0,False,no_contradiction,0.0
+com.notewise.ai,Notewise,r_2204,Omar,2,Laggy after update.,1,2025/02/05 09:15,-1.0,0,1,['laggy'],-0.5,False,no_contradiction,0.0
+com.notewise.ai,Notewise,r_2205,Leila,4,Good for lectures.,3,2025/02/05 09:45,1.0,1,0,['good'],0.5,False,no_contradiction,0.0
+com.otter.ai,Otter AI,r_2206,Hamza,1,Login issues.,0,2025/02/05 10:00,-1.0,0,2,"['issues', 'issue']",-1.0,False,no_contradiction,0.0
+com.newnote.ai,NewNote,r_2207,Nadia,3,Decent but lacks features.,2,2025/02/05 10:30,0.0,0,0,[],0.0,False,no_contradiction,0.0
+com.newnote.ai,NewNote,r_2208,Rachid,1,Very unstable.,0,2025/02/05 11:00,1.0,1,0,['stable'],-1.0,True,low_rating_positive_text,1.0
+com.otter.ai,Otter AI,r_2209,Kenza,4,Nice UI.,2,2025/02/05 11:15,1.0,1,0,['nice'],0.5,False,no_contradiction,0.0
+com.otter.ai,Otter AI,r_2210,Samir,2,Export feature broken.,1,2025/02/05 11:45,-1.0,0,1,['broken'],-0.5,False,no_contradiction,0.0
