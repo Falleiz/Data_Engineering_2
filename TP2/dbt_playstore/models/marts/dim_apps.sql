@@ -1,5 +1,6 @@
 with stg_apps as (
-    select * from {{ ref('stg_playstore_apps') }}
+    -- On lit maintenant dans le Snapshot pour avoir l'historique
+    select * from {{ ref('apps_snapshot') }}
 ),
 
 developers as (
