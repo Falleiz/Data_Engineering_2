@@ -129,3 +129,99 @@ App_Market_research/
 ├── pyproject.toml        # Project Dependencies (at Root)
 └── README.md             # Project Documentation
 ```
+
+---
+
+## 🧪 Part C — Pipeline Stress Testing
+
+In real-world data systems, pipelines rarely remain static. Part C stress-tests the pipeline against **intentionally problematic datasets** to expose hidden assumptions and structural fragilities.
+
+### Principle
+
+Each test dataset replaces the original upstream source entirely (full refresh). No raw file is modified manually — all adaptations are done in code.
+
+### Scenarios
+
+| # | Scenario | Input File | Issues Tested |
+|---|---|---|---|
+| 1 | **New Reviews Batch** | `note_taking_ai_reviews_batch2.csv` | Duplicate `reviewId`, unknown `app_id` |
+| 2 | **Schema Drift** | `note_taking_ai_reviews_schema_drift.csv` | 8 columns renamed, different date format |
+| 3 | **Dirty Data** | `note_taking_ai_reviews_dirty.csv` | Invalid score types, bad timestamps, `"NULL"` strings |
+| 4 | **Updated Apps Metadata** | `note_taking_ai_apps_updated.csv` | Duplicate `appId`, missing values, inconsistent `installs` |
+| 5 | **New Business Logic** | *(existing processed data)* | Sentiment vs rating contradiction detection |
+
+### Setup & Run
+
+```bash
+# Navigate to Part C
+cd "TP1/Data_Engineering_-_S1-2_-_Resources/part C"
+
+# Install dependencies
+poetry install
+
+# Run all scenarios
+poetry run python src/run_all.py
+
+# Run a specific scenario (e.g. 1, 2, 3)
+poetry run python src/run_all.py 1 2 3
+```
+
+Outputs are saved to `part C/output/` as CSV files.
+
+### Structure
+
+```
+part C/
+├── data/                         # Test datasets provided by the lab
+│   ├── note_taking_ai_reviews_batch2.csv
+│   ├── note_taking_ai_reviews_schema_drift.csv
+│   ├── note_taking_ai_reviews_dirty.csv
+│   └── note_taking_ai_apps_updated.csv
+├── src/
+│   ├── utils.py                  # Shared cleaning & dedup utilities
+│   ├── scenario_1_batch.py
+│   ├── scenario_2_schema_drift.py
+│   ├── scenario_3_dirty_data.py
+│   ├── scenario_4_apps_updated.py
+│   ├── scenario_5_sentiment.py
+│   └── run_all.py                # Entry point
+├── output/                       # Generated at runtime
+└── pyproject.toml
+```
+
+### Expected Console Output
+
+```
+============================================================
+   PART C — STRESS TESTING PIPELINE
+   Running scenarios: 1, 2, 3
+============================================================
+
+[1/5] New Reviews Batch
+  [dedup]   Removed 1 duplicate(s) on 'reviewId'
+  [filter]  1 review(s) reference unknown apps: com.ghost.notes
+  Reviews shape: (8, 8) | Unique apps: 3
+
+[2/5] Schema Drift
+  [schema]  Columns received:    ['appId', 'appTitle', 'rating', 'likes', ...]
+  [schema]  Columns normalized:  ['app_id', 'app_name', 'score', 'thumbsUpCount', ...]
+
+[3/5] Dirty and Inconsistent Data
+  [quality] 3 review(s) with invalid/missing score → set to None
+  [quality] 1 review(s) with unparseable timestamp → set to NaT
+  [post]    Valid scores: 7/10 | Valid timestamps: 9/10
+
+============================================================
+   All done. Outputs saved to: part C/output/
+============================================================
+```
+
+### Output Files
+
+| Scenario | Files Generated |
+|---|---|
+| S1 — New Batch | `s1_reviews.csv`, `s1_app_kpis.csv`, `s1_daily_metrics.csv` |
+| S2 — Schema Drift | `s2_reviews.csv`, `s2_app_kpis.csv`, `s2_daily_metrics.csv` |
+| S3 — Dirty Data | `s3_reviews.csv`, `s3_app_kpis.csv`, `s3_daily_metrics.csv` |
+| S4 — Apps Updated | `s4_apps_catalog.csv`, `s4_app_kpis.csv` |
+| S5 — Sentiment | `s5_sentiment_contradictions.csv`, `s5_sentiment_summary.csv` |

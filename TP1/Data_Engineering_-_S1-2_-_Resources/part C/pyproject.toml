@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "part-c-stress-test"
+version = "0.1.0"
+description = "Stress testing pipeline for Lab 1 Part C"
+authors = ["Data Engineering Lab"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0"
+textblob = "^0.17"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
